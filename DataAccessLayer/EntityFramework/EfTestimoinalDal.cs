@@ -9,9 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.EntityFramework
 {
-    //Todo İlerleyen derslerde CRUD işlemleri harici ayrı bir işlem gerçekleştirmek istediğimizde sadece ilgili entity'e özel bir özellik yazmak istersek buraya ekleyeceğiz.
-    public class EfAboutDal : GenericRepository<About>,IAboutDal
+    public class EfTestimoinalDal: GenericRepository<Testimonial>,ITestimonialDal
     {
-
     }
 }
